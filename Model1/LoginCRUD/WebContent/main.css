@@ -1,0 +1,39 @@
+@CHARSET "EUC-KR";
+
+.titleStr {
+		text-align : center;
+		font-size : 2em;
+		font-weight : bold;
+}
+.btns {
+			margin-top : 1em;
+			text-align : center;
+}
+.msgBox {
+		margin-top : 1em;
+		text-align : center;
+		color : blue;
+		font-size : 0.8em;
+		font-weight : bold;
+}
+label {			
+		position: absolute;			
+		width : 3.5em;
+		text-align : right;
+}
+input[type="text"], input[type="password"] {
+		width : 10em;
+		height : 1.2em; 
+		margin-left : 5.5em;
+		margin-bottom : 0.5em;
+}
+input[type="button"] {
+		width : 5.5em;
+}
+
+.centerBox {
+	margin : 0 auto;
+	padding : 2em;
+	width : 15em;
+	border : 2px solid gray;			
+}

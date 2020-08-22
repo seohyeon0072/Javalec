@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ page import="org.doo.*" %>
+<%
+	// Member타입으로 저장된 세션값을 들고온다.
+	Member member = (Member)session.getAttribute("member");
+	
+	// 없으면 되돌려 보낸다.(다른방식 forward)
+	// Web-INF는 외부에서 요청이 안된다.
+	if(member == null){
+		session.setAttribute("msg", "잘못된 접근입니다.");
+		
+%>		
+	<jsp:forward page="loginForm.jsp" />
+
+<%
+	}
+%>
