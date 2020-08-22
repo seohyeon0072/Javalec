@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>hi~</comment>
+<entry key="File">파일</entry>
+<entry key="Label">레이블</entry>
+</properties>
